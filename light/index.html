@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GY2SLFM479"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-GY2SLFM479');
+        </script>
+        
+        <meta charset="utf-8" />
+        
+        <link rel="icon" type="image/x-icon" href="./favicon.ico">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>Easy Ironing — Stop guessing. Start ironing.</title>
+        <meta name="description" content="Send a care-label photo on Telegram. Get practical ironing settings in seconds. No signup. No email. Premium monthly via Stripe.">
+
+        <link rel="canonical" href="https://easyironing.chat/" />
+
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Cássio Batista Pereira">
+        <meta name="keywords" content="ironing bot, care label symbols, ironing temperature guide, steam settings, telegram bot ironing, fabric care assistant, care label assistant">
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Easy Ironing — Stop guessing. Start ironing.">
+        <meta property="og:description" content="Care-label photo → safe, practical ironing settings in seconds. No signup. Premium via Stripe.">
+        <meta property="og:url" content="https://easyironing.chat/">
+        <meta property="og:site_name" content="Easy Ironing">
+        <meta property="og:image" content="https://easyironing.chat/img/logo.png">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Easy Ironing — Stop guessing. Start ironing.">
+        <meta name="twitter:description" content="Send a label photo on Telegram and get safe ironing settings instantly. No signup.">
+        <meta name="twitter:image" content="https://easyironing.chat/img/logo.png">
+
+        <meta property="og:locale" content="en_US">
+
+        <meta name="theme-color" content="#0b1020">
+
+        <link rel="icon" type="image/png" href="/favicon.png">
+        <link rel="apple-touch-icon" href="/img/logo.png">
+
+        <link rel="stylesheet" href="/css/styleb.css" />
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Easy Ironing",
+            "applicationCategory": "Utility",
+            "operatingSystem": "Telegram",
+            "description": "Telegram bot that analyzes care labels and returns practical ironing settings.",
+            "url": "https://easyironing.chat/"
+        }
+        </script>
+        <script>
+            function getVariant() {
+                const match = document.cookie.match(/ab=(main|light)/);
+                return match ? match[1] : "unknown";
+            }
+            window.abVariant = getVariant();
+        </script>
+    </head>
+    <body>
+        <div class="app-icon-container">
+            <img alt="EasyIroning Icon" src="/img/logo.png" title="Logo" />
+        </div>
+        <div class="container">
+            <div class="hero">
+                <h1>Get ironing guidance with a photo</h1>
+                <div class="blurb">Send me pics of your clothing care labels. I'll calculate the <b>temperature</b>, <b>steam</b> and <b>ironing instructions</b> with AI.</div>
+                <div class="buttons-container">
+                    <a id="telegram-cta" class="cta-button telegram-button" href="https://t.me/easyironingbot"><img alt height="40" src="/img/telegram-icon.png" width="40" />Telegram bot</a>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="left">
+                    <div class="box">
+                        <h2>📸 Send me a <span style="color: #FFBC5E;">photo </span> of the care label and the<span style="color: #7EBBFD;"> fabric composition</span><span style="color: #EAFF9B;"> of the clothes</span></h2>
+                        <p>No more stress or confusion. Just snap a photo and I'll do the rest.</p>
+                        <div class="screenshot"><img alt="Easy Ironing - Send a photo of a care label" src="/img/" /></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="box">
+                        <h2>🧠 I'll give you <span style="color: #7EBBFD;">temperature</span>, <span style="color: #EAFF9B;">steam</span> and <span style="color: #FFBC5E;">ironing instructions</span> with AI</h2>
+                        <p>Label the photo with fabric composition like: 80% cotton, 20% polyester.</p>
+                        <div class="screenshot"><img alt="Easy Ironing - Analyse a care label" src="/img/" /></div>
+                    </div>                
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer-inner">
+                    <div class="footer-left">
+                    © <span id="y"></span> Easy Ironing
+                    </div>
+                    <div class="footer-links">
+                    <a href="/privacy.html">Privacy</a>
+                    <a href="/terms.html">Terms</a>
+                    <a href="https://t.me/EasyIroningBot" target="_blank" rel="noreferrer">Telegram</a>
+                    <a href="https://cassiodeveloper.featurebase.app/en" target="_blank" rel="noreferrer">💡 Ideas + 🪲 Bugs</a>
+                    </div>
+                </div>
+            </footer>
+            <a target="_blank" class="featurebase" href="https://cassiodeveloper.featurebase.app/en">💡 Ideas + 🪲 Bugs</a>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const btn = document.getElementById("telegram-cta");
+                if (!btn) return;
+
+                btn.addEventListener("click", function () {
+                    gtag('event', 'telegram_click', {
+                        event_category: 'engagement',
+                        event_label: window.abVariant,
+                        variant: window.abVariant
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

@@ -306,4 +306,9 @@ footer {
     font-weight: bold;
     text-decoration: none;
     transition: all 0.2s ease;
+    opacity: 0.8;
+}
+
+.featurebase:hover {
+    opacity: 1;
 }
