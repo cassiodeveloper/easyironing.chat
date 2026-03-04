@@ -200,6 +200,10 @@ h1 {
   color:var(--muted);
 }
 
+.imgph img {
+  height:150px;
+}
+
 .section { margin-top:60px }
 
 .grid {
